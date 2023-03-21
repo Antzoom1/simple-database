@@ -1,0 +1,12 @@
+Feedback for: antzoom1
+--------------------------------------------------------------
+Total Score (%): 99
+Unit Test Score (out of 32): 38
+System Test Score (out of 4): 23
+Code Score (out of 10): 10
+Writeup Score (out of 10): 10
+--------------------------------------------------------------
+Code feedback: Great job!
+(-0) You should probably include the name of the aggregate operator within aggregate column names.
+
+Writeup feedback: Great job explaining the lab and your design choices in detail!

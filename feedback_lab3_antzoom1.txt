@@ -1,0 +1,16 @@
+Feedback for: antzoom1
+--------------------------------------------------------------
+Total Score (%): 89.5
+Unit Test Score (out of 15): 15
+System Test Score (out of 6): 4
+Code Score (out of 10): 9
+Writeup Score (out of 10): 8.5
+--------------------------------------------------------------
+Code feedback:
+Great job! I like how you have a separate class for the LockManager() and put detailed comments in it. 
+(-0) In HeapFile::insertTuple when you iterate every page in the file, you acquire a write lock on that page; if the page doesn't have any free slots, you could consider invoking releasePage to improve transaction parallelization since you will not write anything on that page. 
+(-1) In BufferPool::evictPage() you should not evict any dirty pages under the NO-STEAL policy.  
+
+Writeup feedback:
+(-0.5) Your description of NO-STEAL is inaccurate.
+(-1) We expect you to elaborate more on strict two-phase locking.

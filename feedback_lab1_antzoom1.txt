@@ -1,0 +1,13 @@
+Feedback for: antzoom1
+--------------------------------------------------------------
+Total Score (%): 99
+Unit Test Score (out of 32): 32
+System Test Score (out of 4): 4
+Code Score (out of 10): 9
+Writeup Score (out of 10): 10
+--------------------------------------------------------------
+Code style: -1
+(-1):  A small thing that you should fix for future labs is that TupleDesc::equals should only be comparing field types, not field names. 
+
+Writeup: -0 
+Excellent writeup that demonstrateds your understanding of the various components of simpledb and rationale behind your design decisions
